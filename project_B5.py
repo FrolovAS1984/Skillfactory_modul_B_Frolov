@@ -23,7 +23,7 @@ def input_value():
         if not (0 <= a < 3 and 0 <= b < 3):
             print('Ошибка! Вышли за границу поля')
             continue
-        if play_field_XO[x][y] != '.':
+        if play_field_XO[a][b] != '.':
             print('Ошибка! Клетка занята')
             continue
         else:
